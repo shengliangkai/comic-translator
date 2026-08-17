@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 密钥与环境变量（绝不提交）
+.env
+.env.local
+
+# OCR 模型缓存（体积大，建议单独下载/拷贝）
+models/
+
+# 运行产物与本地素材
+output/
+temp/
+input/
+fonts/
+
+# 日志
+*.log
